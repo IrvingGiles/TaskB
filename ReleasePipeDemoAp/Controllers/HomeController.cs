@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ReleasePipeDemApp.Controllers
+namespace ReleasePipeDemoAp.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,7 +13,6 @@ namespace ReleasePipeDemApp.Controllers
             ViewBag.Title = "Home Page";
 
             return View();
-            //
         }
     }
 }
